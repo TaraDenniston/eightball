@@ -1,0 +1,41 @@
+.Eightball-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center vertically */
+}
+
+.Eightball-button {
+  width: 200px;
+  color: white;
+  border: none; 
+  cursor: pointer;
+  padding: 0; 
+  position: relative; 
+  display: inline-block; 
+}
+
+.Eightball-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 6rem;
+}
+
+.leftTriangle {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    margin: 0 0px 0px 0;
+    float: left;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+    shape-outside: polygon(0% 0%, 100% 0%, 0% 100%);
+}
+.rightTriangle {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    margin: 0 0 0px 0px;
+    float: right;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    shape-outside: polygon(0% 0%, 100% 0%, 100% 100%);
+}
