@@ -17,7 +17,7 @@ function EightBall() {
       <button 
         className="Eightball-button" 
         style={{backgroundColor: color}}
-        onClick={() => answerQuestion()}>
+        onClick={answerQuestion}>
         <div className="leftTriangle"></div>
         <div className="rightTriangle"></div>
         <div className="Eightball-text">{msg}</div>
