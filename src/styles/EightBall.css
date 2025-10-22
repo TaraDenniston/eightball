@@ -1,15 +1,22 @@
+body {
+  background-image: url("../assets/magic-eightball-empty.png");
+  background-repeat: no-repeat;
+  background-position: center 7rem;
+  background-size: 40rem;
+}
+
 .Eightball-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height to center vertically */
+  margin-top: 18rem;
 }
 
 .Eightball-button {
   width: 200px;
   color: white;
   border: none;
-  border-top: 1px solid white;
+  border-top: 1px solid black;
   cursor: pointer;
   padding: 0; 
   position: relative; 
@@ -25,7 +32,7 @@
 .leftTriangle {
     width: 100px;
     height: 200px;
-    background-color: white;
+    background-color: black;
     margin: 0 0px 0px 0;
     float: left;
     clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
@@ -34,7 +41,7 @@
 .rightTriangle {
     width: 100px;
     height: 200px;
-    background-color: white;
+    background-color: black;
     margin: 0 0 0px 0px;
     float: right;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
